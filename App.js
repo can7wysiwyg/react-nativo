@@ -1,20 +1,39 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import {View, Text, StyleSheet, StatusBar } from "react-native"
+import CoinView from "./screens/CoinView"
+import TopBar from "./screens/TopBar"
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+
+function App() {
+  return(
+
+    <View style={styles.container}>  
+    <View style={styles.statusbar} />
+    <TopBar/>
+    
+    <CoinView   />
+
     </View>
-  );
+
+
+  )
 }
 
 const styles = StyleSheet.create({
+  statusbar: {
+backgroundColor: 'red',
+height: StatusBar.currentHeight
+
+
+  },
   container: {
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'space-around'
   },
-});
+
+  
+
+})
+
+export default App

@@ -1,0 +1,4 @@
+DAY 1 OF REACT NATIVE
+today i started with the basics! styling using Stylesheet, the View Element
+, the Text Element and also the Image element. on the image element, i used network
+images. i also did prop drilling.
