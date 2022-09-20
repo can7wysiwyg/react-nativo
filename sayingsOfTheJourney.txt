@@ -2,3 +2,11 @@ DAY 1 OF REACT NATIVE
 today i started with the basics! styling using Stylesheet, the View Element
 , the Text Element and also the Image element. on the image element, i used network
 images. i also did prop drilling.
+
+DAY 2 OF REACT NATIVE
+Uh, the project is now different from the initial commit but uh this is actually 
+for a good reason yea!
+I have began coding this app via a tutorial and my own google searches on react NATIVE
+to understand a few things about react native. today i played with components, styling
+, images. thats just more of it, i immersed my time. but there is progress. I am getting
+comfortable with react native.

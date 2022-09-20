@@ -1,39 +1,36 @@
-import {View, Text, StyleSheet, StatusBar } from "react-native"
-import CoinView from "./screens/CoinView"
-import TopBar from "./screens/TopBar"
 
+import {View,  StyleSheet, StatusBar} from "react-native"
+import CategoryItem from "./components/CategoryItem"
+import Header from "./components/Header"
+import Search from "./components/Search"
 
 function App() {
   return(
+  
 
-    <View style={styles.container}>  
-    <View style={styles.statusbar} />
-    <TopBar/>
-    
-    <CoinView   />
-
-    </View>
-
-
-  )
+  <View style={styles.container}>
+    <Header />
+    <Search />
+    <CategoryItem />
+  
+  
+  <StatusBar  />
+  </View>)
 }
 
 const styles = StyleSheet.create({
-  statusbar: {
-backgroundColor: 'red',
-height: StatusBar.currentHeight
+  // container: {
+  //   // flex: 1,
+  //   backgroundColor: '#FFF0F5',
+  //   // alignItems: 'center',
+  //   // justifyContent: 'center'
+    
+    
 
-
-  },
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'space-around'
-  },
-
+  // },
   
-
 })
+
+
 
 export default App
