@@ -1,13 +1,13 @@
 import {View, StyleSheet, Text, Image} from "react-native"
 import {elevation} from "./styles"
 
-function CategoryItem() {
-    return(<View style={[styles.container, styles.elevation]}>
+function CategoryItem({name, image, index}) {
+    return(<View style={[styles.container, styles.elevation, index === 0 ? {marginLeft: 25 } : {marginLeft: 15 }]}>
         <View style={styles.imageContainer}>
-            <Image source={require('./images/burger.png')} style={styles.image} />
+            <Image source={image} style={styles.image} />
 
         </View>
-        <Text style={styles.text}>Burger</Text>
+        <Text style={styles.text}>{name}</Text>
 
     </View>)
 }
@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
         height: 100,
         borderRadius: 70,
         marginVertical: 15,
-        marginHorizontal: 25,
+        
         backgroundColor: "white",
         alignItems: 'center',
         justifyContent: 'center'
