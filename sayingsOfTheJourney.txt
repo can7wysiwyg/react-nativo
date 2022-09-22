@@ -10,3 +10,8 @@ I have began coding this app via a tutorial and my own google searches on react 
 to understand a few things about react native. today i played with components, styling
 , images. thats just more of it, i immersed my time. but there is progress. I am getting
 comfortable with react native.
+
+DAY 3 OF REACT NATIVE
+uh today was to be day 4 but uh something happened yesterday. but i am not here to make excuses.
+today, i delt with state, TouchableOpacity and handling http events. of course as of this typing;
+i have not looked into http events but i will. 
