@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Search from "./components/Search";
 import { commonCat } from "./components/data";
 import { useState } from "react";
+import Restaurant from "./components/Restaurant";
 
 
 
@@ -38,6 +39,10 @@ const[term, setTerm] = useState("Burger")
           showsHorizontalScrollIndicator={false}
           keyExtractor={(item) => item.id}
         />
+
+<Restaurant />
+
+
       </View>
 
       <StatusBar />
